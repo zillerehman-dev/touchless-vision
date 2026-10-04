@@ -4,9 +4,6 @@ A touchless computer-vision application that runs on a webcam and is controlled 
 
 Built with Python, OpenCV and the MediaPipe Tasks API.
 
-## Demo
-
-A demo video will be linked here.
 
 ## Features
 
