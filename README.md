@@ -44,7 +44,6 @@ Camera -> OpenCV frame -> mirror -> HandTracker (MediaPipe)
        -> HandState (gestures) -> current mode -> rendered frame -> display
 ```
 
-`HandTracker` only reports facts about hands. `HandState` in `main.py` turns them into events such as `just_pinched`. Each mode receives the frame and the hand state and returns the frame to display. See [ARCHITECTURE.md](ARCHITECTURE.md) for diagrams and [UNDERSTANDING.md](UNDERSTANDING.md) for a detailed walkthrough of the algorithms.
 
 ## Technology stack
 
